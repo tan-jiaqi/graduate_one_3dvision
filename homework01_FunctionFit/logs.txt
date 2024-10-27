@@ -1,0 +1,366 @@
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 875.6/875.6 kB 16.0 MB/s eta 0:00:00
+Collecting nvidia-cuda-cupti-cu11==11.8.87 (from torch)
+  Downloading https://download.pytorch.org/whl/cu118/nvidia_cuda_cupti_cu11-11.8.87-py3-none-manylinux1_x86_64.whl (13.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.1/13.1 MB 26.6 MB/s eta 0:00:00
+Collecting nvidia-cudnn-cu11==9.1.0.70 (from torch)
+  Downloading https://download.pytorch.org/whl/cu118/nvidia_cudnn_cu11-9.1.0.70-py3-none-manylinux2014_x86_64.whl (663.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 663.9/663.9 MB 25.9 MB/s eta 0:00:00
+Collecting nvidia-cublas-cu11==11.11.3.6 (from torch)
+  Downloading https://download.pytorch.org/whl/cu118/nvidia_cublas_cu11-11.11.3.6-py3-none-manylinux1_x86_64.whl (417.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 417.9/417.9 MB 25.9 MB/s eta 0:00:00
+Collecting nvidia-cufft-cu11==10.9.0.58 (from torch)
+  Downloading https://download.pytorch.org/whl/cu118/nvidia_cufft_cu11-10.9.0.58-py3-none-manylinux1_x86_64.whl (168.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 168.4/168.4 MB 23.9 MB/s eta 0:00:00
+Collecting nvidia-curand-cu11==10.3.0.86 (from torch)
+  Downloading https://download.pytorch.org/whl/cu118/nvidia_curand_cu11-10.3.0.86-py3-none-manylinux1_x86_64.whl (58.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.1/58.1 MB 29.0 MB/s eta 0:00:00
+Collecting nvidia-cusolver-cu11==11.4.1.48 (from torch)
+  Downloading https://download.pytorch.org/whl/cu118/nvidia_cusolver_cu11-11.4.1.48-py3-none-manylinux1_x86_64.whl (128.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 128.2/128.2 MB 24.8 MB/s eta 0:00:00
+Collecting nvidia-cusparse-cu11==11.7.5.86 (from torch)
+  Downloading https://download.pytorch.org/whl/cu118/nvidia_cusparse_cu11-11.7.5.86-py3-none-manylinux1_x86_64.whl (204.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 204.1/204.1 MB 22.8 MB/s eta 0:00:00
+Collecting nvidia-nccl-cu11==2.21.5 (from torch)
+  Downloading https://download.pytorch.org/whl/cu118/nvidia_nccl_cu11-2.21.5-py3-none-manylinux2014_x86_64.whl (147.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 147.8/147.8 MB 24.9 MB/s eta 0:00:00
+Collecting nvidia-nvtx-cu11==11.8.86 (from torch)
+  Downloading https://download.pytorch.org/whl/cu118/nvidia_nvtx_cu11-11.8.86-py3-none-manylinux1_x86_64.whl (99 kB)
+Collecting triton==3.1.0 (from torch)
+  Downloading https://download.pytorch.org/whl/triton-3.1.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (209.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 209.5/209.5 MB 19.7 MB/s eta 0:00:00
+Collecting sympy==1.13.1 (from torch)
+  Downloading https://download.pytorch.org/whl/sympy-1.13.1-py3-none-any.whl (6.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.2/6.2 MB 15.5 MB/s eta 0:00:00
+Collecting mpmath<1.4,>=1.1.0 (from sympy==1.13.1->torch)
+  Downloading https://download.pytorch.org/whl/mpmath-1.3.0-py3-none-any.whl (536 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 kB 18.2 MB/s eta 0:00:00
+Collecting numpy (from torchvision)
+  Downloading https://download.pytorch.org/whl/numpy-1.26.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.2/18.2 MB 19.3 MB/s eta 0:00:00
+Collecting pillow!=8.3.*,>=5.3.0 (from torchvision)
+  Downloading https://download.pytorch.org/whl/pillow-10.2.0-cp310-cp310-manylinux_2_28_x86_64.whl (4.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.5/4.5 MB 3.0 MB/s eta 0:00:00
+Collecting MarkupSafe>=2.0 (from jinja2->torch)
+  Downloading https://download.pytorch.org/whl/MarkupSafe-2.1.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
+Installing collected packages: mpmath, sympy, pillow, nvidia-nvtx-cu11, nvidia-nccl-cu11, nvidia-cusparse-cu11, nvidia-curand-cu11, nvidia-cufft-cu11, nvidia-cuda-runtime-cu11, nvidia-cuda-nvrtc-cu11, nvidia-cuda-cupti-cu11, nvidia-cublas-cu11, numpy, networkx, MarkupSafe, fsspec, filelock, triton, nvidia-cusolver-cu11, nvidia-cudnn-cu11, jinja2, torch, torchvision, torchaudio
+Successfully installed MarkupSafe-2.1.5 filelock-3.13.1 fsspec-2024.2.0 jinja2-3.1.3 mpmath-1.3.0 networkx-3.2.1 numpy-1.26.3 nvidia-cublas-cu11-11.11.3.6 nvidia-cuda-cupti-cu11-11.8.87 nvidia-cuda-nvrtc-cu11-11.8.89 nvidia-cuda-runtime-cu11-11.8.89 nvidia-cudnn-cu11-9.1.0.70 nvidia-cufft-cu11-10.9.0.58 nvidia-curand-cu11-10.3.0.86 nvidia-cusolver-cu11-11.4.1.48 nvidia-cusparse-cu11-11.7.5.86 nvidia-nccl-cu11-2.21.5 nvidia-nvtx-cu11-11.8.86 pillow-10.2.0 sympy-1.13.1 torch-2.5.0+cu118 torchaudio-2.5.0+cu118 torchvision-0.20.0+cu118 triton-3.1.0
+$ python 
+Python 3.10.15 | packaged by conda-forge | (main, Oct 16 2024, 01:24:24) [GCC 13.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import torch
+>>> torch.cuda.is_available()
+False
+>>> exit()
+$ nvcc -V
+/bin/sh: 7: nvcc: not found
+$ nivida -smi
+/bin/sh: 8: nivida: not found
+$ cd ../
+$ cd FunctionFitFinal
+$ pip install wandb matplotlib
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Requirement already satisfied: wandb in /home/user/micromamba/lib/python3.10/site-packages (0.18.5)
+Collecting matplotlib
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/8d/9d/d06860390f9d154fa884f1740a5456378fb153ff57443c91a4a32bab7092/matplotlib-3.9.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (8.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.3/8.3 MB 25.3 MB/s eta 0:00:00
+Requirement already satisfied: click!=8.0.0,>=7.1 in /home/user/micromamba/lib/python3.10/site-packages (from wandb) (8.1.7)
+Requirement already satisfied: docker-pycreds>=0.4.0 in /home/user/micromamba/lib/python3.10/site-packages (from wandb) (0.4.0)
+Requirement already satisfied: gitpython!=3.1.29,>=1.0.0 in /home/user/micromamba/lib/python3.10/site-packages (from wandb) (3.1.43)
+Requirement already satisfied: platformdirs in /home/user/micromamba/lib/python3.10/site-packages (from wandb) (4.3.6)
+Requirement already satisfied: protobuf!=4.21.0,!=5.28.0,<6,>=3.19.0 in /home/user/micromamba/lib/python3.10/site-packages (from wandb) (5.28.3)
+Requirement already satisfied: psutil>=5.0.0 in /home/user/micromamba/lib/python3.10/site-packages (from wandb) (6.1.0)
+Requirement already satisfied: pyyaml in /home/user/micromamba/lib/python3.10/site-packages (from wandb) (6.0.2)
+Requirement already satisfied: requests<3,>=2.0.0 in /home/user/micromamba/lib/python3.10/site-packages (from wandb) (2.32.3)
+Requirement already satisfied: sentry-sdk>=2.0.0 in /home/user/micromamba/lib/python3.10/site-packages (from wandb) (2.17.0)
+Requirement already satisfied: setproctitle in /home/user/micromamba/lib/python3.10/site-packages (from wandb) (1.3.3)
+Requirement already satisfied: setuptools in /home/user/micromamba/lib/python3.10/site-packages (from wandb) (75.1.0)
+Requirement already satisfied: typing-extensions<5,>=4.4 in /home/user/micromamba/lib/python3.10/site-packages (from wandb) (4.12.2)
+Collecting contourpy>=1.0.1 (from matplotlib)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/99/e6/d11966962b1aa515f5586d3907ad019f4b812c04e4546cc19ebf62b5178e/contourpy-1.3.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (322 kB)
+Collecting cycler>=0.10 (from matplotlib)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Collecting fonttools>=4.22.0 (from matplotlib)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/e5/12/9a45294a7c4520cc32936edd15df1d5c24af701d2f5f51070a9a43d7664b/fonttools-4.54.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.6/4.6 MB 29.5 MB/s eta 0:00:00
+Collecting kiwisolver>=1.3.1 (from matplotlib)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/55/91/0a57ce324caf2ff5403edab71c508dd8f648094b18cfbb4c8cc0fde4a6ac/kiwisolver-1.4.7-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 27.3 MB/s eta 0:00:00
+Requirement already satisfied: numpy>=1.23 in /home/user/micromamba/lib/python3.10/site-packages (from matplotlib) (1.26.3)
+Collecting packaging>=20.0 (from matplotlib)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/08/aa/cc0199a5f0ad350994d660967a8efb233fe0416e4639146c089643407ce6/packaging-24.1-py3-none-any.whl (53 kB)
+Requirement already satisfied: pillow>=8 in /home/user/micromamba/lib/python3.10/site-packages (from matplotlib) (10.2.0)
+Collecting pyparsing>=2.3.1 (from matplotlib)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/be/ec/2eb3cd785efd67806c46c13a17339708ddc346cbb684eade7a6e6f79536a/pyparsing-3.2.0-py3-none-any.whl (106 kB)
+Collecting python-dateutil>=2.7 (from matplotlib)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Requirement already satisfied: six>=1.4.0 in /home/user/micromamba/lib/python3.10/site-packages (from docker-pycreds>=0.4.0->wandb) (1.16.0)
+Requirement already satisfied: gitdb<5,>=4.0.1 in /home/user/micromamba/lib/python3.10/site-packages (from gitpython!=3.1.29,>=1.0.0->wandb) (4.0.11)
+Requirement already satisfied: charset-normalizer<4,>=2 in /home/user/micromamba/lib/python3.10/site-packages (from requests<3,>=2.0.0->wandb) (3.4.0)
+Requirement already satisfied: idna<4,>=2.5 in /home/user/micromamba/lib/python3.10/site-packages (from requests<3,>=2.0.0->wandb) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /home/user/micromamba/lib/python3.10/site-packages (from requests<3,>=2.0.0->wandb) (2.2.3)
+Requirement already satisfied: certifi>=2017.4.17 in /home/user/micromamba/lib/python3.10/site-packages (from requests<3,>=2.0.0->wandb) (2024.8.30)
+Requirement already satisfied: smmap<6,>=3.0.1 in /home/user/micromamba/lib/python3.10/site-packages (from gitdb<5,>=4.0.1->gitpython!=3.1.29,>=1.0.0->wandb) (5.0.1)
+Installing collected packages: python-dateutil, pyparsing, packaging, kiwisolver, fonttools, cycler, contourpy, matplotlib
+Successfully installed contourpy-1.3.0 cycler-0.12.1 fonttools-4.54.1 kiwisolver-1.4.7 matplotlib-3.9.2 packaging-24.1 pyparsing-3.2.0 python-dateutil-2.9.0.post0
+$ wandb login
+wandb: WARNING Path /workspace/FunctionFitFinal/wandb/ wasn't writable, using system temp directory
+wandb: WARNING Path /workspace/FunctionFitFinal/wandb/ wasn't writable, using system temp directory.
+wandb: WARNING Path /workspace/FunctionFitFinal/wandb/ wasn't writable, using system temp directory
+wandb: Logging into wandb.ai. (Learn how to deploy a W&B server locally: https://wandb.me/wandb-server)
+wandb: You can find your API key in your browser here: https://wandb.ai/authorize
+wandb: Paste an API key from your profile and hit enter, or press ctrl+c to quit: 
+wandb: Appending key for api.wandb.ai to your netrc file: /home/user/.netrc
+$ python lstm_sine_fit.py
+Using device: cpu
+/workspace/FunctionFitFinal/lstm_sine_fit.py:63: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  data = torch.load('datasets/traindata.pt')
+wandb: WARNING Path /workspace/FunctionFitFinal/wandb/ wasn't writable, using system temp directory.
+wandb: Using wandb-core as the SDK backend. Please refer to https://wandb.me/wandb-core for more information.
+wandb: WARNING Path /workspace/FunctionFitFinal/wandb/ wasn't writable, using system temp directory
+wandb: Currently logged in as: tanjiaqi346 (tanjiaqi346-bupt-university). Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.18.5
+wandb: Run data is saved locally in /tmp/wandb/run-20241027_160935-wbsg88la
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run 2024-10-27 16:09:34
+wandb: ⭐️ View project at https://wandb.ai/tanjiaqi346-bupt-university/lstm-sine-wave
+wandb: 🚀 View run at https://wandb.ai/tanjiaqi346-bupt-university/lstm-sine-wave/runs/wbsg88la
+STEP:  0
+loss: 0.49644189732890576
+loss: 0.4892900648505518
+loss: 0.4638208533937927
+loss: 0.4248430108152625
+loss: 0.2952116902655589
+loss: 0.18187063137407702
+loss: 0.3062525285027656
+loss: 0.022378393892375645
+loss: 0.005824149751695809
+loss: 0.005166316701485753
+loss: 0.005012683704563492
+loss: 0.004924830744287776
+loss: 0.004805703699139187
+loss: 0.004560986478382984
+loss: 0.0041393212994900045
+loss: 0.003588154953976746
+loss: 0.0033113949183314656
+loss: 0.003279599531675249
+loss: 0.0032628165739220553
+loss: 0.0032118006182355837
+test loss: 0.003058009472605816
+Traceback (most recent call last):
+  File "/workspace/FunctionFitFinal/lstm_sine_fit.py", line 125, in <module>
+    plt.savefig('predictions/predict_%dlayers_%dhsize_%depochs.jpg' % (opt.layers, opt.hidden_size, i))
+  File "/home/user/micromamba/lib/python3.10/site-packages/matplotlib/pyplot.py", line 1228, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+  File "/home/user/micromamba/lib/python3.10/site-packages/matplotlib/figure.py", line 3395, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/home/user/micromamba/lib/python3.10/site-packages/matplotlib/backend_bases.py", line 2204, in print_figure
+    result = print_method(
+  File "/home/user/micromamba/lib/python3.10/site-packages/matplotlib/backend_bases.py", line 2054, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+  File "/home/user/micromamba/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py", line 513, in print_jpg
+    self._print_pil(filename_or_obj, "jpeg", pil_kwargs, metadata)
+  File "/home/user/micromamba/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py", line 445, in _print_pil
+    mpl.image.imsave(
+  File "/home/user/micromamba/lib/python3.10/site-packages/matplotlib/image.py", line 1676, in imsave
+    image.save(fname, **pil_kwargs)
+  File "/home/user/micromamba/lib/python3.10/site-packages/PIL/Image.py", line 2436, in save
+    fp = builtins.open(filename, "w+b")
+PermissionError: [Errno 13] Permission denied: 'predictions/predict_2layers_51hsize_0epochs.jpg'
+^CException ignored in atexit callback: <function _start_and_connect_service.<locals>.teardown_atexit at 0x7f7f451cca60>
+Traceback (most recent call last):
+  File "/home/user/micromamba/lib/python3.10/site-packages/wandb/sdk/lib/service_connection.py", line 93, in teardown_atexit
+    conn.teardown(hooks.exit_code)
+  File "/home/user/micromamba/lib/python3.10/site-packages/wandb/sdk/lib/service_connection.py", line 216, in teardown
+    return self._proc.join()
+  File "/home/user/micromamba/lib/python3.10/site-packages/wandb/sdk/service/service.py", line 241, in join
+    ret = self._internal_proc.wait()
+  File "/home/user/micromamba/lib/python3.10/subprocess.py", line 1209, in wait
+    return self._wait(timeout=timeout)
+  File "/home/user/micromamba/lib/python3.10/subprocess.py", line 1959, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/home/user/micromamba/lib/python3.10/subprocess.py", line 1917, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt: 
+$ pwd                                                                               
+/workspace/FunctionFitFinal
+$ chmod -R 777 ./predictions
+chmod: changing permissions of './predictions': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_32hsize_16epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_3layers_64hsize_0epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_51hsize_1epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_51hsize_5epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_64hsize_19epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_3layers_64hsize_1epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_64hsize_3epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_51hsize_18epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_3layers_64hsize_8epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_51hsize_15epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_64hsize_2epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_32hsize_17epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_64hsize_12epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_4layers_64hsize_13epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_64hsize_1epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_4layers_64hsize_5epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_3layers_64hsize_17epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_3layers_64hsize_9epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_32hsize_19epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_4layers_64hsize_7epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_3layers_64hsize_12epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_51hsize_4epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_64hsize_5epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_4layers_64hsize_2epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_3layers_64hsize_11epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_3layers_64hsize_2epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_32hsize_12epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_3layers_64hsize_3epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_51hsize_19epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_51hsize_6epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_4layers_64hsize_9epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_64hsize_4epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_64hsize_15epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_4layers_64hsize_14epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_64hsize_8epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_32hsize_18epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_3layers_64hsize_10epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_64hsize_0epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_4layers_64hsize_10epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_51hsize_11epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_4layers_64hsize_17epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_4layers_64hsize_15epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_32hsize_7epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_51hsize_9epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_64hsize_11epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_32hsize_8epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_51hsize_8epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_3layers_64hsize_4epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_4layers_64hsize_0epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_3layers_64hsize_19epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_32hsize_1epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_32hsize_14epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_4layers_64hsize_4epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_32hsize_6epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_64hsize_17epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_32hsize_3epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_4layers_64hsize_12epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_4layers_64hsize_8epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_64hsize_16epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_3layers_64hsize_16epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_64hsize_6epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_32hsize_5epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_32hsize_13epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_64hsize_7epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_51hsize_7epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_51hsize_16epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_64hsize_18epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_3layers_64hsize_14epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_51hsize_2epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_3layers_64hsize_15epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_3layers_64hsize_18epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_64hsize_10epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_51hsize_13epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_32hsize_15epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_3layers_64hsize_5epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_51hsize_14epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_3layers_64hsize_13epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_32hsize_9epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_32hsize_0epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_64hsize_9epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_64hsize_14epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_3layers_64hsize_7epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_4layers_64hsize_16epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_4layers_64hsize_6epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_3layers_64hsize_6epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_32hsize_2epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_4layers_64hsize_1epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_51hsize_12epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_4layers_64hsize_11epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_32hsize_11epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_51hsize_10epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_4layers_64hsize_19epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_51hsize_0epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_32hsize_4epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_32hsize_10epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_4layers_64hsize_18epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_51hsize_3epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_51hsize_final.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_51hsize_17epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_2layers_64hsize_13epochs.jpg': Operation not permitted
+chmod: changing permissions of './predictions/predict_4layers_64hsize_3epochs.jpg': Operation not permitted
+$ sudo chmod -R 777 ./predictions
+$ python lstm_sine_fit.py
+Using device: cpu
+/workspace/FunctionFitFinal/lstm_sine_fit.py:63: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  data = torch.load('datasets/traindata.pt')
+wandb: WARNING Path /workspace/FunctionFitFinal/wandb/ wasn't writable, using system temp directory.
+wandb: Using wandb-core as the SDK backend. Please refer to https://wandb.me/wandb-core for more information.
+wandb: WARNING Path /workspace/FunctionFitFinal/wandb/ wasn't writable, using system temp directory
+wandb: Currently logged in as: tanjiaqi346 (tanjiaqi346-bupt-university). Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.18.5
+wandb: Run data is saved locally in /tmp/wandb/run-20241027_161747-5yxadife
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run 2024-10-27 16:17:45
+wandb: ⭐️ View project at https://wandb.ai/tanjiaqi346-bupt-university/lstm-sine-wave
+wandb: 🚀 View run at https://wandb.ai/tanjiaqi346-bupt-university/lstm-sine-wave/runs/5yxadife
+STEP:  0
+loss: 0.49644189732890576
+loss: 0.4892900648505518
+loss: 0.4638208533937927
+loss: 0.4248430108152625
+loss: 0.2952116902655589
+loss: 0.18187063137407702
+loss: 0.3062525285027656
+loss: 0.022378393892375645
+loss: 0.005824149751695809
+loss: 0.005166316701485753
+loss: 0.005012683704563492
+loss: 0.004924830744287776
+loss: 0.004805703699139187
+loss: 0.004560986478382984
+loss: 0.0041393212994900045
+loss: 0.003588154953976746
+loss: 0.0033113949183314656
+loss: 0.003279599531675249
+loss: 0.0032628165739220553
+loss: 0.0032118006182355837
+test loss: 0.003058009472605816
+STEP:  1
+loss: 0.0031202907620253993
+loss: 0.0029562510628146138
+loss: 0.0027059443245423145
+loss: 0.0023509075412538006
+loss: 0.0017745701369814707
+loss: 0.0012650346861074553
+loss: 0.001041958451111226
+loss: 0.0007348300446971495
+loss: 0.0006004688492956174
+loss: 0.0005109044163181201
+loss: 0.0004126464682346621
+loss: 0.0003676793369507235
+loss: 0.0003479996475961794
+loss: 0.00034350643015907913
+loss: 0.00034128578878912834
+loss: 0.0003409159175113026
+loss: 0.00034008081328713163
+loss: 0.0003387531074034523
+loss: 0.00033599453813033066
+loss: 0.00033072110742749953
+^CTraceback (most recent call last):
+  File "/workspace/FunctionFitFinal/lstm_sine_fit.py", line 96, in <module>
+    optimizer.step(closure)
+  File "/home/user/micromamba/lib/python3.10/site-packages/torch/optim/optimizer.py", line 487, in wrapper
+    out = func(*args, **kwargs)
+  File "/home/user/micromamba/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/user/micromamba/lib/python3.10/site-packages/torch/optim/lbfgs.py", line 457, in step
+    loss = float(closure())
+  File "/home/user/micromamba/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/workspace/FunctionFitFinal/lstm_sine_fit.py", line 93, in closure
+    loss.backward()
+  File "/home/user/micromamba/lib/python3.10/site-packages/torch/_tensor.py", line 581, in backward
+    torch.autograd.backward(
+  File "/home/user/micromamba/lib/python3.10/site-packages/torch/autograd/__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "/home/user/micromamba/lib/python3.10/site-packages/torch/autograd/graph.py", line 825, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
