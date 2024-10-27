@@ -72,7 +72,8 @@ wandb图表如下
 - 隐藏层大小对于模型的拟合效果有一定影响，`--layers 5 --hidden_size 64`训练爆炸可知过大会导致拟合效果变差。
 
 ## Docker运行
-本项目配置了`docker`环境，首先请GPU模式启动镜像并实例化容器
+本项目配置了`docker`环境，docker地址为 https://hub.docker.com/repository/docker/2024111720/ubuntu2204_cuda118/general
+请以GPU模式启动镜像并实例化容器。
 
 之后进入容器内部，输入`wandb login --relogin`登录wandb账号，之后即可运行代码。
 以下为示例运行命令：
