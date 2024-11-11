@@ -3,3 +3,5 @@
 
 ![Example Image](pictures/z1_2.png)
 ![Example Image](pictures/z1_3.png)
+
+unity项目位于UnityProject文件夹中，使用的unity版本为2022.3.4f1,拟合中间过程位于pictures文件夹中的figure1-6。
